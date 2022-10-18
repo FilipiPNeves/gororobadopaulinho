@@ -78,12 +78,12 @@ function abrirWhatsapp() {
         prato += filedepeixe.value + " ";
     }
   
-    var url = "https://web.whatsapp.com/send/?phone=5522997397377&text=" // Meu numero
+    var url = "https://wa.me/5522997397377?text" // Meu numero
       + "*DADOS*" + "%0a" // Mensagem personalizada
       + "%0a" // Quebra de linha
       + "*Prato: " + prato + "%0a"
       
-      + "&type=phone_number&app_absent=0"
+
 
     window.open(url, '_blank').focus();
   }

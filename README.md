@@ -1,6 +1,5 @@
 WEBSITE DE UM RESTAURANTE RESPONSIVO
 
-WEBSITE DE UM RESTAURANTE RESPONSIVO
+Site desenvolvido para Gororoba do paulinho, restaurante de um amigo.
 
-Design de um site responsivo para restaurante. Ele contém menu, home, sobre, cardápio, delivery, contato e rodapé.
-Desenvolvido primeiramente para dispositivos móveis e depois para desktop.
+contem menu, sobre, cardápio, conteúdo e contatos.
