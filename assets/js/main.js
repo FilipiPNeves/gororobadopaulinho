@@ -78,7 +78,7 @@ function abrirWhatsapp() {
         prato += filedepeixe.value + " ";
     }
   
-    var url = "https://wa.me/5522997397377?text" // Meu numero
+    var url = "https://wa.me/5522999344289?text=" // Meu numero
       + "*DADOS*" + "%0a" // Mensagem personalizada
       + "%0a" // Quebra de linha
       + "*Prato: " + prato + "%0a"
