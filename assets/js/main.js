@@ -61,22 +61,15 @@ function abrirWhatsapp() {
     var nhocchicamarao = document.getElementById("nhocchicamarao");
     var camaraoempanado = document.getElementById("camaraoempanado");
     var filedepeixe = document.getElementById("filedepeixe");
+    var arrayItems = [polvo, nhocchicamarao, camaraoempanado, filedepeixe];
 
-    if (polvo.checked){
-        prato += polvo.value + " ";
+    for(let i=1; i < arrayItems.length; i++){
+        if (arrayItems[i].checked){
+            prato += arrayItems[i].value + " ";
+        }
     }
+
     
-    if (nhocchicamarao.checked) {
-        prato += nhocchicamarao.value + " ";
-    }
-
-    if (camaraoempanado.checked) {
-        prato += camaraoempanado.value + " ";
-    }
-
-    if (filedepeixe.checked) {
-        prato += filedepeixe.value + " ";
-    }
   
     var url = "https://wa.me/5522999344289?text=" // Meu numero
       + "*DADOS*" + "%0a" // Mensagem personalizada
